@@ -1,0 +1,12 @@
+[package]
+name = "verse-ls"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Language server for Epic's Verse language."
+
+[dependencies]
+tokio = { workspace = true }
+tower-lsp-server = { workspace = true }
+verse-ls-db = { path = "../verse-ls-db" }
+verse-ls-parser = { path = "../verse-ls-parser" }
