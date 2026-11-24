@@ -1,0 +1,8 @@
+[package]
+name = "verse-ls-parser"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Lexer, parser, and parse diagnostics for the Verse language (verse-ls)."
+
+[dependencies]

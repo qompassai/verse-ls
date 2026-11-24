@@ -1,0 +1,8 @@
+[package]
+name = "verse-ls-db"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Digest ingestion and symbol databases for the Verse language (verse-ls)."
+
+[dependencies]
