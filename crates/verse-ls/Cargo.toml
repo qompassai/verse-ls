@@ -10,3 +10,7 @@ tokio = { workspace = true }
 tower-lsp-server = { workspace = true }
 verse-ls-db = { path = "../verse-ls-db" }
 verse-ls-parser = { path = "../verse-ls-parser" }
+
+[[bench]]
+name = "hot_paths"
+harness = false
